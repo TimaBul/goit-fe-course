@@ -15,11 +15,11 @@
 }
 
 body {
-    background-color: #222222;
-}
+    font-family: "Open Sans", sans-serif;
+    color: #555252;
+  }
 
 .containar {
-    background-color: green;
     width: 1600px;
     margin: 0 auto;
 }
@@ -27,6 +27,7 @@ body {
     width: 1170px;
 }
 .navigation {
+    padding: 36px 0 32px;
     position: relative;
 }
 
@@ -81,13 +82,16 @@ body {
 }
 
 
-/* 22222222222222 */ 
+     /* <!-- Slider -->  */
 
 .slider {
       position: relative;
 }
 
-
+.slides-item {
+    position: relative;
+    list-style: none;
+}
 
 .slides img{
     position: relative;
@@ -96,12 +100,9 @@ body {
     object-fit: cover;
 }
 
-.slides-item {
-    position: relative;
-    list-style: none;
-}
 
-.description {
+
+.slider-title {
     position: absolute;
     width: 730px;
     left: 50%;
@@ -146,15 +147,19 @@ body {
  
 
 }
-
-.left {
-    background-image: url(/html-css/module-5/img/icon/angle-left.svg);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font: 100px sans-serif;
+.gg {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border: 2px;
+   
 }
+.pe-7s-angle-left, .pe-7s-angle-right {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Pe-icon-7-stroke';
+
+  }
 
 .one {
     left: 245px;
