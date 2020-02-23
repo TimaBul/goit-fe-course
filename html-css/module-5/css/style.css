@@ -139,6 +139,7 @@ main {
   z-index: 2;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .pe-7s-angle-left,
@@ -186,7 +187,7 @@ main {
   width: 164px;
   height: 7px;
   background-color: rgb(26, 188, 156);
-  margin: 10px auto 0;
+  margin: 30px auto 0;
   position: absolute;
   left: 50%;
   top: 60%;
@@ -351,113 +352,27 @@ main {
     border-color: rgb(26, 188, 156);
 }
 
-/* .rectangle-1 {
-    border-width: 1px;
-    border-color: rgb(26, 188, 156);
-    border-style: solid;
-    background-color: rgb(26, 188, 156);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 48px;
-    height: 48px;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-
-    
-
-
-  }
-
-
-
-.rectangle-2 {
-    border-width: 1px;
-    border-color: rgb(26, 188, 156);
-    border-style: solid;
-    background-color: rgb(26, 188, 156);
-    position: absolute;
-    width: 48px;
-    height: 48px;
-    left: 50%;
-    transform: translateX(-50%);
-    
-}
-.rectangle-3{
-    border-width: 1px;
-    border-color: rgb(26, 188, 156);
-    border-style: solid;
-    background-color: rgb(26, 188, 156);
-    position: absolute;
-    right: 0;
-    width: 48px;
-    height: 48px;
-    z-index: 31;
-
-}
-
-.rectangle-4 {
-    border-width: 1px;
-    border-color: rgb(255, 255, 255);
-    border-style: solid;
-    background-color: rgb(50, 50, 50);
-    position: absolute;
-    width: 100%;
-    height: 48px;
-    z-index: 31;
-    top: 50%;
-} */
-
-/* .rectangle-1 i {
-    height: 40px;
-    width: 40px;
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: scale(2);
-    
-} */
-
 /* FOOTER */
+
 .footer {
-  display: inline-block;
-  padding: 10px;
+    
+    background-color: rgb(81, 81, 81);
+    height: 88px;
+    font-family: "Open Sasn", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    line-height: 1.75;
+    padding-top: 15px;
 }
 
-.BUTTON_copy {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1600px;
-  height: 1455px;
-  z-index: 33;
+.footer-a {
+    color: #1abc9c;
+    text-decoration: none;
 }
 
-. {
-  font-size: 30px;
-  font-family: "Pe";
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.067;
-  position: absolute;
-  left: 645.448px;
-  top: 1077.828px;
-  width: 26px;
-  height: 22px;
-  z-index: 32;
-}
 
-.Rectangle_53 {
-  border-width: 1px;
-  border-color: rgb(26, 188, 156);
-  border-style: solid;
-  background-color: rgb(26, 188, 156);
-  position: absolute;
-  left: 634px;
-  top: 1035px;
-  width: 48px;
-  height: 48px;
-  z-index: 31;
-}
+
+
+
