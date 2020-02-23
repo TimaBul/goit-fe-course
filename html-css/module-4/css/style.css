@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+
 html {
     box-sizing: border-box;
 }
@@ -61,7 +67,7 @@ margin: 0;
 .size-navigation a {
     text-decoration: none;
     text-transform: uppercase;
-    font: 14px "Open-Sans-Bolt", sans-serif;
+    font: 14px "Open Sans", sans-serif;
     color: rgb(81, 81, 81);
     font-weight: 700;
 
@@ -81,8 +87,12 @@ margin: 0;
 }
 
 /* TITLE */
+.featured-products {
+    padding-top: 90px;
+}
+
 .feature-title {
-    font: 48px "Roboto-Black", sans-serif;
+    font: 48px "Roboto", sans-serif;
     font-weight: 700;
     text-align: center;
     letter-spacing: -2px;
@@ -90,6 +100,7 @@ margin: 0;
     padding: 10px;
     margin-top: 34px;
 }
+
 
 .title {
     position: relative;
@@ -109,53 +120,59 @@ margin: 0;
 
 /* menu */
 
-.feature-list-title {
+.image {
+    width: 255px;
+    height: 282px;
+    display: block;
+    background-color: #e9f0fd;
+}
+
+
+.featured-products li {
     float: left;
-}
-.feature-list {
-    margin-top: 92px;
-    list-style: none;
-    padding-left: 0;
-
-
-}
-.feature-list-title {
+    list-style-type: none;
     margin-right: 30px;
     margin-bottom: 30px;
-    width: 255px;
-    background-color: rgb(233, 240, 253);
-
 }
 
-.feature-list-title:nth-child(4n) {
-    margin-right: 0;
+.featured-products li:nth-child(4n) {
+    margin-right: 0px;
 }
 
-.feature-list-a {
+.product a, .price {
     text-decoration: none;
-    color: #fff;
-
-}
-
-.price-feature {
-    float: right;
-    padding: 0 12px; 
-    background-color: rgb(250, 250, 250, 0.4);
-    margin: 0;
-}
-
-.name-feature {
-    background-color: rgb(50,50,50);
+    color: #ffffff;
     text-transform: uppercase;
-    font: 18px "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 900;
-    line-height: 2.5;
-    padding-left: 14px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.product a{
+    width: 186px;
+    float: left;
+}
+
+.price {
+    float: left;
+    width: 55px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.44);
 
 }
 
-.feature-list-title:hover > .feature-list-a .name-feature {
-    background-color: rgb(26,188,156);
+.product {
+    padding-left: 14px;
+    background-color: rgba(50, 50, 50, 1);
+    }
+
+.featured:hover .product {
+    background-color: rgba(26, 188, 156, 1);
+  }
+
+.featured:hover .price {
+    background-color: rgba(255, 255, 255, 0.44);
 }
           /* Tims title */           
 
@@ -179,8 +196,9 @@ margin: 0;
 }
 
 .team-list-image {
-    display: inline-block;
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
     
    
 
@@ -191,7 +209,8 @@ margin: 0;
 }
 
 .team-list-name {
-    font: 14px "Open-Sans-Bolt", sans-serif;
+    padding-top: 15px;
+    font: 14px "Open Sans", sans-serif;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: -1px;
@@ -201,15 +220,20 @@ margin: 0;
 }
 
 .team-list-about {
-    font: 12px "OpenSans", sans-serif;
+    padding-bottom: 15px;
+    font: 12px "Open Sans", sans-serif;
     font-weight: 600;
     margin-right: 20px;
     margin-top: 34px;
 
 
 }
-.feature-img {
-    display: inline-block;
+.image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 255px;
+    height: 282px;
 
 }
 
@@ -220,6 +244,7 @@ margin: 0;
     width: 136px;
     height: 3px;
     background-color:rgb(26, 188, 156);
+    margin: 10px auto 0;
 }
 
 .team-list-a {
@@ -230,7 +255,7 @@ margin: 0;
     margin: 0 auto;
     border-radius: 3px;
     color: white;
-    font: 17px "OpenSans", sans-serif;
+    font: 17px "Open Sans", sans-serif;
     font-weight: 300;
 
 }
@@ -241,6 +266,6 @@ margin: 0;
 }
 
 .team-list-a, .team-list-name, .team-list-about  {
-    line-height: 16px;
+    line-height: 23px;
 }
 /* <!-- the and --> */

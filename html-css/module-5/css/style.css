@@ -19,6 +19,11 @@ body {
     color: #555252;
   }
 
+main {
+    background-color: rgb(233, 240, 253);
+}
+  
+
 .containar {
     width: 1600px;
     margin: 0 auto;
